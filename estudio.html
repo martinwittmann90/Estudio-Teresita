@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/stylemobile.css">
     <link rel="icon" href="/imagenes/LOGOTERESA.jpg">
+    <link rel="stylesheet" href="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecera">
-
+        <nav>
+            <input class="cosoboton" id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+            <label for="abrir-cerrar" id="cositoboton" class="toggle-button"></label>
+            <ul  class="hamburguesa">
+                <li class="lista"><a href="./index.html">HOME</a></li>
+                <li class="lista"><a href="./proyectos.html">PROYECTOS</a></li>
+                <li class="lista"><a href="./bio.html">NOSOTRAS</a></li>
+                <li class="lista"><a href="./estudio.html">ESTUDIO</a></li>
+                <li class="lista"><a href="./contactanos.html">CONTACTO</a></li>
+            </ul>
+        </nav>
         <a class="cabecera__logo" title="HOME" href="./index.html"><img src="./imagenes/LOGOTERESA.jpg" alt="LOGOTERESA" /></a>
         <nav class="cabecera__listado">
             <ul class="cabecera__listado__links">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/proyectos.html">PROYECTOS</a></li>
-                <li><a href="/bio.html">NOSOTRAS</a></li>
-                <li><a class="cabecera__listado__links--active" href="/estudio.html">ESTUDIO</a></li>
-                <li><a href="/contactanos.html">CONTACTO</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./proyectos.html">PROYECTOS</a></li>
+                <li><a href="./bio.html">NOSOTRAS</a></li>
+                <li><a class="cabecera__listado__links--active" href="./estudio.html">ESTUDIO</a></li>
+                <li><a href="./contactanos.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
